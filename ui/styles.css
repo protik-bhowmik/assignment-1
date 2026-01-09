@@ -353,6 +353,54 @@ header .button-container {
 }
 
 
+/* Offer Section Styles */
 
+#offer {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.offer-container {
+    width: 85%;
+    max-width: 1360px;
+    text-align: center;
+    padding: 60px 20px;
+    margin: 20px 120px 120px 120px;
+    border-radius: 8px;
+    background-color: #F7F6F4;
+    justify-content: center;
+    display: flex;
+}
+
+.offer-container h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.offer-container p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+    color: #627382;
+    max-width: 500px;
+}
+
+.offer-container .button-container {
+    margin: 16px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.offer-container > p:last-of-type {
+    margin-top: 16px;
+    color: #627382;
+    font-size: 14px;
+}
 
 
