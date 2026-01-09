@@ -20,6 +20,10 @@
     background-color: #469165;
 }
 
+.button:hover {
+    background-color: #30B868;
+}
+
 .another-button {
     font-size: 16px;
     font-weight: 600;
