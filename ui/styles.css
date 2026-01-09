@@ -269,3 +269,90 @@ header .button-container {
     color: #627382;
     line-height: 20px;
 }
+
+/* Solution Section Styles */
+
+#solution {
+    background-color: #ffffff;
+    padding: 120px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.solution-container {
+    width: 85%;
+    max-width: 1360px;
+    display: flex;
+    gap: 80px;
+    align-items: center;
+}
+
+.solution-image {
+    flex: 1;
+}
+
+.solution-image img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+
+.solution-content {
+    flex: 1;
+}
+
+.solution-content > p:first-child {
+    color: #469165;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.solution-content h2 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #001931;
+    line-height: 56px;
+    margin-bottom: 24px;
+}
+
+.solution-content > p:nth-of-type(2) {
+    font-size: 16px;
+    color: #627382;
+    line-height: 24px;
+    margin-bottom: 32px;
+    font-weight: 400;
+}
+
+.solution-bullet {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.bullet-point {
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+}
+
+.bullet-point img {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    margin-top: 2px;
+}
+
+.bullet-point p {
+    font-size: 16px;
+    color: #001931;
+    font-weight: 500;
+    line-height: 24px;
+    margin: 0;
+}
+
+
+
+
+
